@@ -6,7 +6,7 @@ I got excited about trying a few different things to visualize data. I decided t
 
 https://microsoft.github.io/lida/
 
-I installed lida on my MacBook, got a key from OpenAI to access its AI tools for data analytics, and wrote two python scripts that use data from a Git repo of weather underground data, specifically the weather in Paris from 2016, to anayltlics and visualzie the data.  
+I installed lida on my MacBook, got a key from OpenAI to access its AI tools for data analytics, and wrote two python scripts that use data from a Git repo of weather underground data, specifically the weather in Paris from 2016, to anayltlics and visualize the data.  
 
 https://github.com/leokassio/weather-underground-data
 
