@@ -1,3 +1,10 @@
-Goal(question='How does the distribution of movie ratings look like?', visualization='bar chart of Rating', rationale='By visualizing the distribution of movie ratings, we can understand the spread of ratings across the dataset. This can help identify trends in the quality of movies and potentially uncover any outliers in terms of exceptionally high or low-rated movies.', index=0)
 
-Goal(question='What is the relationship between movie revenue and metascore?', visualization='scatter plot of Revenue__Millions_ vs Metascore', rationale='Plotting the relationship between movie revenue and metascore can provide insights into whether there is a correlation between critical acclaim (metascore) and financial success (revenue). This analysis can help in understanding the impact of reviews on the commercial performance of movies.
+Question
+What is the distribution of Max Temperature in Paris in 2016?'
+
+visualization='Bar chart of Max_TemperatureC', rationale='By visualizing the distribution of maximum temperatures, we can understand the range and frequency of high temperatures experienced in Paris throughout 2016. This can help in identifying patterns and anomalies in temperature data.', index=0)
+
+Question
+How does the mean visibility vary in Paris in 2016?'
+
+visualization='Line chart of _Mean_VisibilityKm over time (CET)', rationale='Tracking the mean visibility over time can provide insights into the atmospheric conditions in Paris throughout the year. This visualization can help in understanding trends in visibility and potential correlations with other weather parameters.', index=1)
