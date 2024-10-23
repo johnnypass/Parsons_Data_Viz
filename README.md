@@ -10,6 +10,8 @@ I installed lida on my MacBook, got a key from OpenAI to access it’s AI tools 
 
 https://github.com/leokassio/weather-underground-data
 
+I wrote a summarization script (summarize_goals_weather.py) that accessed Open AI's llm to provide me with two questions I may want to answer with the data set provided. Open AI returned the following prompts. 
+
 Question
 What is the distribution of Max Temperature in Paris in 2016?
 
