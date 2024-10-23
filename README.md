@@ -1,4 +1,5 @@
 ASSIGNMENT #3
+
 Use an AI tool and everything you learned in the lecture to make a well-designed visualization of the weather in your favorite city. Post your visualization (static image) and write a short reflection on that experience of creating with AI. Will AI takeover? It doesn't need to be perfect, but see how far you can get to a decent visualization. Be sure to post the prompts used, tools, and document the process you went through to create it.
 
 I got excited about trying a few different things to visualize data. I decided to start with Lida
