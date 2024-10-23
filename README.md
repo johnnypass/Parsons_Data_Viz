@@ -22,9 +22,7 @@ How does the mean visibility vary in Paris in 2016?
 
 visualization='Line chart of _Mean_VisibilityKm over time (CET)', rationale='Tracking the mean visibility over time         can provide insights into the atmospheric conditions in Paris throughout the year. This visualization can help in           understanding trends in visibility and potential correlations with other weather parameters.', index=1)
 
-I used the prompts above in another script that generated visualizations as both bar and line charts (available in the attached repository). This process was quite interesting to me as a proof of concept. Lida can do a lot of things, including natural language-based visualization refinement, visualization explanations and accessibility, self-evaluation and repair of visualization code, and even recommending visualizations. I only scratched the surface of what it's capable of.
-
-Lida is a powerful tool, and based on the small amount of work I did this week, I can understand why there is concern that AI could replace core job functions. AI, as it stands today, is the worst it will ever be. Everything will improve exponentially over time, and while good data visualizations with a human touch may remain important, they could become far less influential. It might be naive to assume that, in most cases, the cost and speed of AI-generated data visuals won't be preferred over a more expensive, handmade process that doesn’t always yield better results. 
+I used the prompts above in another script that generated visualizations as both bar and line charts (available in the attached repository). This process was interesting as a proof of concept. Lida can do a lot of things, including natural language-based visualization refinement, visualization explanations and accessibility, self-evaluation and repair of visualization code, and even recommending visualizations. I only scratched the surface of what it's capable of.
 
 
 
