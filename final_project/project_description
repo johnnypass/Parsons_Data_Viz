@@ -1,0 +1,15 @@
+For this assignment:
+
+    Explore a data set of your choosing and develop a design spec document fleshing out the story you are planning to tell with this visualization. You will refer to this document throughout your project development process (I recommend creating a Google doc) and update various sections to include screenshots of your wireframes/mockups and links to your data set. Make sure your design spec answers the following questions:
+        Who is your audience? Who are you designing the visualization for?
+        What is your data source?
+        What kind of data are you visualizing (i.e., categorical, ordinal, nominal) and how are you planning to accurately portray the story?
+        What question does your visualization answer?
+        What is the title of your visualization?
+        How will users engage with your visualization and how can you create an intuitive experience for them?
+
+    Develop wireframes and sketches to represent the visualization you are hoping to build (post images documenting this process), as you did in your design process assignment.
+
+    Iterate on these sketches and create digital mockups prior to building the visualization (post screenshots documenting this process), using any program or platform of your choosing (again refer to the design process assignment).
+
+    Build a static or dynamic visualization using the program of your choosing to tell the visual story of your data. This can absolutely be done in Tableau, R, Adobe Creative Suite, Google Drawing, Sketch or another program/platform. The only rule is that it must be created digitally (it cannot be a sketch or hand drawing). It can – but does not have to! – include interactive elements (easier to do in Tableau or a similar tool).
