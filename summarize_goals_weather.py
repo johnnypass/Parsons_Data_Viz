@@ -3,7 +3,7 @@ import os
 from lida import Manager, llm, TextGenerationConfig  # Replace 'lida_lib' with the actual module name
 
 # Load environment variables from the .env file
-load_dotenv('/Users/johnpassmore/Desktop/openapi.env')
+load_dotenv('PATH/TO/FILE')
 
 # Get the API key from the environment variables
 api_key = os.getenv('API_KEY')
