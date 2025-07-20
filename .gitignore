@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# dotenv
+.env
+.env.*
+
+# MacOS
+.DS_Store
