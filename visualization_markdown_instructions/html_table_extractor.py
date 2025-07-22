@@ -75,12 +75,21 @@ class HtmlTableExtractor:
         else:
             headers = [th.get_text(strip=True) for th in table.find_all('th')]
 
+        # clean headers remove line breaks
+        # consolidate multiple whitespace chars into a single char
+        headers = [" ".join(s.replace("\n", "").replace("\r", "").split()) for s in headers]
+
         # Extract table rows from <tr> with <td> tags
         data_rows = []
         for tr in table.find_all('tr')[self.skip_first_rows:]:
             cells = tr.find_all('td')
             if cells:
-                data_rows.append([cell.get_text(strip=True) for cell in cells])
+                # here `get_text(strip=True)` only removes html related whitespace
+                row = [cell.get_text(strip=True) for cell in cells]
+                # Only append if at least one cell contains non-empty content
+                # this `cell.strip()` call filters out whitespace, \n \t \r and nbsp
+                if any(cell.strip() for cell in row):
+                    data_rows.append(row)
         
         if not data_rows:
             print("Error: Table found, but no data rows (with <td>) could be parsed.")
