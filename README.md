@@ -1,1 +1,1 @@
-Projects and assignments related to Data Visualization 101
+Projects and assignments related to Data Visualization
